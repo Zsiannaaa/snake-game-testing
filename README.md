@@ -1,31 +1,32 @@
 # Snake Game
 
-A minimalist black and white snake game built with Python and Pygame.
+A modern, feature-rich Snake game built with Electron — sleek design, smooth animations, and desktop-ready.
 
 ## Features
-- **Minimalist design**: Clean black and white aesthetic
-- **Toggle themes**: Switch between dark and light mode with `Space`
-- **Optimized controls**: WASD or Arrow keys with input queueing for responsive gameplay
-- **Screen wrapping**: Snake wraps around edges
-- **Pause**: Press `P` to pause/resume
+- **Light & Dark themes** with instant toggle
+- **6 color skins**: Neon Green, Cyber Blue, Crimson, Golden, Void Purple, Arctic
+- **3 game modes**: Classic, Obstacles, Zen (wrap-around walls)
+- **3 difficulty levels**: Easy, Normal, Hard
+- **AI auto-play** — let the bot play for you
+- **Power-ups**: Speed boost, Shield, Shrink, Double score
+- **Combo system** — eat food quickly for score multipliers
+- **Sound effects**, screen shake, particle explosions
+- **Mobile support** with swipe gestures and D-pad
 
-## Installation
+## Development
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Zsiannaaa/snake-game-testing.git
-   cd snake-game-testing
-   ```
+```bash
+npm install
+npm start
+```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Build (Windows EXE)
 
-3. Run the game:
-   ```bash
-   python snake_game.py
-   ```
+```bash
+npm run build
+```
+
+The portable EXE outputs to `dist/SnakeGame.exe` (~74MB, no installer needed).
 
 ## Controls
 
@@ -35,5 +36,5 @@ A minimalist black and white snake game built with Python and Pygame.
 | `S` / `↓` | Move down |
 | `A` / `←` | Move left |
 | `D` / `→` | Move right |
-| `Space` | Toggle theme / Restart (on game over) |
+| `Space` / `R` | Restart game |
 | `P` | Pause / Resume |
